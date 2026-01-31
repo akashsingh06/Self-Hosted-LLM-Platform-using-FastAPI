@@ -40,3 +40,19 @@ python test_ollama.py
 git clone <repository>
 cd local-llm-platform
 make install
+
+
+
+
+** Restart Ollama to clear any stuck processes:**
+Open a NEW PowerShell window and run:
+
+powershell
+# Stop Ollama if running
+Get-Process -Name "ollama" | Stop-Process -Force
+
+# Wait a moment
+Start-Sleep -Seconds 3
+
+# Start Ollama fresh
+ollama serve
