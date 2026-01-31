@@ -18,6 +18,14 @@ A production-ready platform for running, fine-tuning, and managing local LLMs wi
 - **Docker Support**: Easy deployment with Docker Compose
 
 ## Quick Start
+### Run the fix script:
+-python fix_ollama.py
+
+### use the quick start:
+python quick_start.py
+
+### Test everything:
+python test_ollama.py
 
 ### Prerequisites
 
